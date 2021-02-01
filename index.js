@@ -17,6 +17,9 @@ Do the following:
 
    HINT: no function required
 */
+var votingAge=18
+if (votingAge >= 18) {console.log("true")}
+else {console.log("false")}
 
 
 
@@ -31,6 +34,13 @@ Do the following:
    HINT: no function required
 */
 
+let num1 = 2;
+let num2 = 0;
+console.log(num1);
+if (num1 < num2) {
+  num1 = 2;
+}
+console.log(num1);
 
 
 
@@ -45,6 +55,10 @@ Do the following:
 
    HINT: look up the Number method
 */
+let number="1999"
+Number(number)
+console.log (number)
+
 
 
 
@@ -58,8 +72,8 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
-function multiply(/*add your code here*/){
-    /*add your code here*/
+function multiply(){
+    
   }
 
 
@@ -74,8 +88,8 @@ Do the following:
    3. Return the newly calculated age
 */
 
-function dogYears(/*add your code here*/){
-    /*add your code here*/
+function dogYears(humanAge){
+    return humanAge*7
 }
 
 
@@ -107,8 +121,14 @@ Use the hungryDog function and feeding requirements below to do the following:
   NOTE: If done correctly, a weight of 15 lbs and age of 1 year would return 0.44999999999999996
 */  
 
-function hungryDog(/*add your code here*/){
-    /*add your code here*/
+function hungryDog( ){
+const dogfeeder= (pounds, age)>={
+  if (age < 1)
+  if (age<=0.2 && age <= 0.4)
+  return (pounds *0.1)
+  if (age<=0.7 && age<=1)
+  return 
+}
   }
 
 
@@ -151,8 +171,8 @@ Using the miles function below do the following:
   3. Return the number of miles
 */
 
-function miles(/*add your code here*/){
-    /*add your code here*/
+function miles(){
+  
   }
 
 
@@ -201,11 +221,25 @@ Using the grade function below do the following:
    below should return 'you got an F'
 */
   
-function grade(/*Your Code here */){
-  /*Your Code here */
+function grade(if score is <= 90-100)
+return'A';
+{if (score<=80& && score <90){
+  return 'B';
+
+}
+  if (score<70 && score <80){
+    return 'C'';
   }
+  if (score <60 && score<70){
+    Retrun'D';
+    if (score <60){
+      return 'F';
+    
+
+      };
+    }
   
-  
+ console.log (grade Calc(86));
 
 /*💪💪💪💪💪💪💪💪💪💪 Stretch 💪💪💪💪💪💪💪💪💪💪*/
 
